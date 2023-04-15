@@ -1,0 +1,61 @@
+/* Fonts */
+@font-face {
+    font-family: 'HankenGrotesk';
+    src: url('../assets/fonts/HankenGrotesk-Regular.eot'); /* IE9 Compat Modes */
+    src: url('../assets/fonts/HankenGrotesk-Regular.woff') format('woff'), /* Modern Browsers */
+        url('../assets/fonts/HankenGrotesk-Regular.woff2') format('woff2'),
+        url('../assets/fonts/HankenGrotesk-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+        url('../assets/fonts/HankenGrotesk-Regular.svg') format('svg'); /* Legacy iOS */
+}
+
+body {
+    font-family: 'HankenGrotesk', sans-serif;
+}
+
+/* HTML Elements */
+main {
+    min-height: 100vh;
+    min-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    color:hsl(0, 0%, 100%);
+}
+
+p {
+    font-size: 18px;
+}
+
+/* Class elements */
+.container {
+    width: 50%;
+    border: 1.5px solid;
+    border-radius: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+    text-align: center;
+}
+
+.column {
+    width: 50%;
+    padding: 1rem;
+    border-radius: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.circle {
+    width: 50%;
+    border-radius: 50%;
+    border: 1.5px solid;
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+}
+
+#left-col {
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
